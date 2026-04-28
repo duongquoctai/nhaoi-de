@@ -1,0 +1,59 @@
+{
+  "chotot": {
+    "url": "https://gateway.chotot.com/v1/public/ad-listing",
+    "cities": {
+      "hcm": 13000,
+      "hn": 12000
+    },
+    "districts": {
+      "hcm": {
+        "q1": 13096,
+        "q2": 13097,
+        "q3": 13098,
+        "q4": 13099,
+        "q5": 13100,
+        "q6": 13101,
+        "q7": 13102,
+        "q8": 13103,
+        "q9": 13104,
+        "q10": 13105,
+        "q11": 13106,
+        "q12": 13107,
+        "bt": 13108,
+        "bh": 13109,
+        "gv": 13110,
+        "pn": 13111,
+        "tb": 13112,
+        "tp": 13113,
+        "bc": 13115,
+        "cc": 13116,
+        "hm": 13117,
+        "nb": 13118,
+        "td": 13119,
+        "cg": 13120
+      },
+      "hn": {
+        "bd": 12001,
+        "hk": 12002,
+        "tx": 12003
+      }
+    },
+    "categories": {
+      "house": 1020,
+      "apartment": 1010
+    }
+  },
+  "alonhadat": {
+    "url": "https://alonhadat.com.vn/api/v1/listings",
+    "cities": {
+      "hcm": "ho-chi-minh",
+      "hn": "ha-noi"
+    },
+    "districts": {
+      "hcm": {
+        "q1": "quan-1",
+        "q2": "quan-2"
+      }
+    }
+  }
+}
