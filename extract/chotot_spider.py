@@ -30,8 +30,9 @@ class ChototSpider:
             
         try:
             print(f"   [Spider] Fetching Chotot - region_v2: {region_id}, area_v2: {area_id}, page: {page}...")
-            # Human-like delay
-            time.sleep(1.5) 
+            # Human-like delay to anti-bot
+            import random
+            time.sleep(random.uniform(2, 5)) 
             
             response = requests.get(self.url, params=params, headers=self.headers)
             response.raise_for_status()

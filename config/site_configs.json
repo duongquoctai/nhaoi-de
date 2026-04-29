@@ -1,5 +1,6 @@
 {
   "chotot": {
+    "enable": true,
     "url": "https://gateway.chotot.com/v1/public/ad-listing",
     "cities": {
       "hcm": 13000,
@@ -44,16 +45,36 @@
     }
   },
   "alonhadat": {
-    "url": "https://alonhadat.com.vn/api/v1/listings",
+    "enable": false,
+    "type": "html",
+    "base_url": "https://alonhadat.com.vn",
+    "listing_path": "/nha-dat/can-ban/nha-dat/{city}/{district_id}/{district_slug}.html",
+
     "cities": {
       "hcm": "ho-chi-minh",
       "hn": "ha-noi"
     },
+
     "districts": {
       "hcm": {
-        "q1": "quan-1",
-        "q2": "quan-2"
+        "q1": { "id": 132, "slug": "quan-1" },
+        "q2": { "id": 133, "slug": "quan-2" },
+        "q3": { "id": 134, "slug": "quan-3" },
+        "q7": { "id": 138, "slug": "quan-7" },
+        "q9": { "id": 140, "slug": "quan-9" },
+        "bt": { "id": 144, "slug": "quan-binh-tan" },
+        "gv": { "id": 146, "slug": "quan-go-vap" },
+        "pn": { "id": 148, "slug": "quan-phu-nhuan" },
+        "tb": { "id": 149, "slug": "quan-tan-binh" },
+        "tp": { "id": 150, "slug": "quan-tan-phu" }
       }
+    },
+
+    "pagination": "/trang--{page}.html",
+
+    "categories": {
+      "house": "nha-dat",
+      "apartment": "can-ho-chung-cu"
     }
   }
 }
